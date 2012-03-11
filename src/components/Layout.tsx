@@ -30,8 +30,8 @@ const Layout: React.FC = () => {
           <ListItem component={Link} to="/upload">
             <ListItemText primary="Customer Management" />
           </ListItem>
-          <ListItem component={Link} to="/autocalls">
-            <ListItemText primary="Auto Call" />
+          <ListItem component={Link} to="/schedule">
+            <ListItemText primary="Schedule Call" />
           </ListItem>
         </List>
       </Drawer>
